@@ -1,7 +1,28 @@
 <DOCTYPE! html>
 <html>
 <head>
+    <title>Bokning</title>
 </head>
 <body>
+    <form action="" method="POST">
+        <fieldset>
+            <legend>Bokning</legend>
+            <label for="name">Namn</labelfor>
+            <input id="name" type="name"><br>
+            <label for="start">Datum</label><br>
+            <input type="date" id="start" name="trip-start" value="2021-11-03" min="2021-11-01" max="2040-12-31"><br>
+            <label for="email">Email</label><br>
+            <input id="email" type="email"><br>
+            <label for="phone">Telefonnummer</label><br>
+            <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required><br>
+            <small>Format: 123-4567890</small><br>
+            <label for="message">Medelande</label><br>
+            <textarea id="message" name="message" rows="5" ></textarea>
+        </fieldset>
+        <input type="submit" value="Send">
+    </form>
+    <h3>Postadress</h3>
+    <p>Norra bergvägen 9A</p>
+    <p>541 32 Skövde</p>
 </body>
 </html>
