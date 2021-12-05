@@ -11,3 +11,5 @@
   - fix the div information 
   - added the menu information 
   - changed send to skicka 
+
+- 2021-11-25 11:00 - 12:30 moved div elements 
