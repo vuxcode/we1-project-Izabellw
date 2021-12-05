@@ -5,3 +5,9 @@
   - upploded home page, contact page and booking page 
 
 - 2021-10-28 18:00 - 19:00 added form and message 
+
+- 2021-11-03 10:30 - 15:30 fix the page and css 
+  - added the color information to css
+  - fix the div information 
+  - added the menu information 
+  - changed send to skicka 
