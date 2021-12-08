@@ -1,0 +1,91 @@
+<DOCTYPE! html>
+<html>
+<head>
+    <title>Bokning</title>
+    <style>
+      body {
+      background: #FFF8DC;
+    } 
+      a {
+        color: red;
+      }
+      li a {
+        color: red;
+      }
+    
+      ul {
+        background:  #FAFAD2;
+        list-style-type: none;
+        margin: 0;
+        overflow: hidden;
+        padding: 0;
+      }
+    li {
+        float: left;
+      }
+    li a {
+        display: block;
+        color: black;
+        padding: 16px;
+        text-align: center;
+        text-decoration: none;
+      }
+    li a:hover {
+        background-color: white;
+      }
+    fieldset {
+      padding-top: 0px;
+      padding-right: 0px;
+      border-top-width: 0px;
+      border-right-width: 0px;
+      margin-right: 0px;
+      padding-bottom: 0px;
+      padding-left: 0px;
+      border-left-width: 0px;
+      margin-left: 0px;
+      border-bottom-width: 0px;
+    }
+    </style>
+</head>
+<body>
+  <ul>
+    <li><a href="index.html">Hem</a></li>
+    <li><a href="bokning.html">Bokning</a></li>
+    <li><a href="kontakt.html">Kontakt</a></li>
+  </ul>
+  
+  <div>
+    <h1>Föreläsningar</h1>
+    <h2>Att komma ut</h2>
+    <p>Föreläsningen handlar om olika sätt att komma ut som HBTQI person.<br>
+    Föreläsningen tar ca 2 timmar</p>
+    <h2>Normer</h2>
+    <p>Föreläsningen handlar om hur man ser på normer, och hur man måste följa vissa normer inom samhället<br>
+    Föreläsningen tar ca 2 timmar.</p>
+    <p>Föreläsningarna kan man boka in för enstaka pass, eller havdag samt heldag</p>
+  </div>
+  <form action="" method="POST">
+    <fieldset>
+      <h1>Bokning</h1>
+        
+      <label for="name">Namn</label><br>
+        <input id="name" type="name"><br>
+      <label for="start">Datum</label><br>
+        <input type="date" id="start" name="trip-start" value="2021-11-03" min="2021-11-01" max="2040-12-31"><br>
+      <label for="email">Email</label><br>
+        <input id="email" type="email"><br>
+      <label for="phone">Telefonnummer</label><br>
+        <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required><br>
+          <small>Format: 123-4567890</small><br>
+      <label for="message">Meddelande</label><br>
+        <textarea id="message" name="message" rows="5" ></textarea>
+    </fieldset>
+    
+  <input type="submit" value="Skicka">
+</form>
+<div>
+  <p>Ni får gärna kontakta mig om ni har frågor angående bokning samt kostander.</p>
+</div>
+<div class="img"><img src="iw.png"></div>
+</body>
+</html>
