@@ -15,3 +15,6 @@
 - 2021-11-25 11:00 - 12:30 moved div elements 
 
 - 2021-12-8 11:00 - 11:02 changed the home link to index.html
+
+- 2021-12-08 11:05 - 11:15 fixed the home page. added img on booking page and contact page 
+  - Fixed so the information on home page is in center 
