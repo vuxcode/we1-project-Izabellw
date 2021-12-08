@@ -13,3 +13,5 @@
   - changed send to skicka 
 
 - 2021-11-25 11:00 - 12:30 moved div elements 
+
+- 2021-12-8 11:00 - 11:02 changed the home link to index.html
